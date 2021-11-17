@@ -1,0 +1,27 @@
+.flex_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.1));
+}
+
+.card {
+  margin: 15px;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.5));
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

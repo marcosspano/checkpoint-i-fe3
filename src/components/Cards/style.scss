@@ -1,0 +1,19 @@
+.flex_cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.1));
+
+}
+
+.card {
+    margin: 15px;
+
+    &:hover {
+        transform: scale(0.9);
+        filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.5));
+        transition: all 0.3s ease-in-out;
+    }
+
+}
